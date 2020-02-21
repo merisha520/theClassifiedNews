@@ -3,7 +3,7 @@
 ## Instruction
 Restore [Backup](https://github.com/Suranjan77/theClassifiedNews/blob/master/DB/db_backup_postgres "postgres_sql_backup on postgreSql")<br>
 Run [ServerApi.java](https://github.com/Suranjan77/theClassifiedNews/blob/master/src/main/java/com/classified/webApi/ServerApi.java "ServerApi.java")<br>
-Open [Index.html](https://github.com/Suranjan77/theClassifiedNews/blob/master/classifiednews/index.html"Frontend")
+Open [Index.html](https://github.com/Suranjan77/theClassifiedNews/blob/master/classifiednews/index.html "Frontend")
 
 ## Summary
 <p>Text classification is the task of classifying textual document into predefined categories.</p>
