@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>NewsApp</title>
+    <link rel="stylesheet" href="../css/script.css" type="text/css">
+    <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script>
+    <script type="text/javascript" src="../js/postnews.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row topbar">
+        <div class="col-4" id="Welcome"></div>
+    </div>
+    <div class="row heading">
+        <div class="col-12">
+            <h1 id="mainHead">~ THE CLASSIFIED NEWS ~</h1>
+        </div>
+    </div>
+
+    <p id="errormsg"></p>
+    <div class="row postBody">
+        <form method="post" name="PostNews" enctype="multipart/form-data" onsubmit="return postnews()">
+            <div class="row newsPostArticle">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>NEWS TITLE</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" name="NewsTitle" class="bigInputFields">
+                    </div>
+                </div>
+            </div>
+            <div class="row newsPostArticle">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>NEWS IMAGE</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input type="file" name="NewsImage" class="custom-file-input">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row newsPostArticle">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>NEWS ARTICLE</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <textarea id="newsarticle" style="width: 900px; height: 300px;"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row newsPostArticle">
+                <div class="row">
+                    <div class="col-12 centerText">
+                        <input type="submit" value="Post" class="bigSubmitBtn">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="tempArticle" class="row"></div>
+</div>
+</body>
+</html>

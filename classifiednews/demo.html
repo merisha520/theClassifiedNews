@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="css/demo.css" type="text/css">
+    <script src="js/demo.js"></script>
+</head>
+<body>
+<p id="errormsg"></p>
+<div class="row">
+    <div class="leftPanel col-6">
+        <form method="post" onsubmit="return(demo());" name="DemoForm">
+            <div class="row">
+                <div class="col-12">
+                    <label for="testString">Test Document</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <textarea id="testString" placeholder="Enter text to test here ..." rows=15 cols=50 name="DemoText"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input type="submit" class="bigSubmitBtn">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="rightPanel col-6">
+        <div class="row">
+            <div class="col-12 answer">
+                Clean Text
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="cleantext">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 answer">
+                Stop Words Removed
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="stopword">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 answer">
+                Porter Stemming
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="porter">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 answer">
+                Feature Count
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="featurecount">
+                <table id="featuretable">
+
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 answer">
+                Probabilities
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="probability">
+                <table id="probabilitytable">
+
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 answer">
+                Predicted As
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="predicted">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

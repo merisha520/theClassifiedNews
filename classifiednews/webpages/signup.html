@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <title>NewsApp</title>
+    <link rel="stylesheet" href="../css/script.css" type="text/css">
+    <script src="../js/login_signup.js" type="text/javascript"></script>
+</head>
+<body>
+<center><p id="errormsg"></p></center>
+<div class="login_signup_box">
+    <div class="row">
+        <div class="col-12 topRowLooginSignupBox">
+            SIGNUP
+        </div>
+    </div>
+    <form method="post" name="SignupForm" onsubmit="return(validate());">
+        <div class="row">
+            <div class="col-12">
+                E-mail
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="email" class="inpuFields" name="Email">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Full Name
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" class="inpuFields" name="FullName">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                Company Name
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" class="inpuFields" name="Company">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                Password
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="password" class="inpuFields" name="Password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Confirm Password
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="password" class="inpuFields" name="ConfirmPassword">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 centerText">
+                <input type="submit" value="Signup" class="submitBtn">
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

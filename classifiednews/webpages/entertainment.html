@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>NewsApp</title>
+    <link rel="stylesheet" href="../css/script.css" type="text/css">
+    <script src="../js/getNews.js" type="text/javascript"></script>
+</head>
+<body onload="loadNewsByCategory('entertainment')">
+<div class="container">
+    <!-- Header Start -->
+    <div class="row topbar">
+        <div class="col-2 date" id="currentdate">Monday 29, April 2019</div>
+        <div class="col-2 losign" id="Login"><a href="login.html">LOGIN</a></div>
+        <div class="col-1 losign" id="SignUp"><a href="signup.html">SIGNUP</a></div>
+        <div class="col-2" id="Welcome"></div>
+        <div class="col-4 search"><input type="text" placeholder="Search title" id="searchText"><span id="btn_search"><a
+                href="#" onclick="searchNewsByTitle()"><img width="25px" height="25px"
+                                                            src="https://img.icons8.com/ios/50/000000/search.png"
+                                                            alt="search"></a></span></div>
+    </div>
+
+    <div class="row heading">
+        <div class="col-12">
+            <h1 class="mainHead">~ THE CLASSIFIED NEWS ~</h1>
+        </div>
+    </div>
+
+    <div class="row navbar">
+        <div class="col-12 padding-2">
+            <ul id="main-menu">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="politics.html">POLITICS</a></li>
+                <li><a href="business.html">BUSINESS</a></li>
+                <li><a href="entertainment.html">~ ENTERTAINMENT ~</a></li>
+                <li><a href="sport.html">SPORTS</a></li>
+                <li><a href="tech.html">TECHNOLOGY</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="row">
+        <!-- TODO: Dynamically generated -->
+        <div class="col-8 bigNews">
+            <div class="row newsTitleBig" id="newsTitle"><!-- Dynamic --></div>
+            <div class="row" id="newsImage"><img width="100%" src="../img/budo.jpg"></div>
+            <div class="row dateauthor">
+                <div class="col-4 date" id="publishedDate"><!-- Dynamic --></div>
+                <div class="col-4 author" id="newsAuthor"><!-- Dynamic --></div>
+            </div>
+            <div class="row">
+                <div class="col-12 newsArticle" id="newsContents">
+                    <!--Dynamic-->
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row" style="text-align: center; border:2px solid black; background-color: rgb(192, 192, 192);">
+                <h2 id="category">~ Entertainment ~</h2>
+            </div>
+
+            <div id="NewsPanel">
+                <!-- Dynamically generated -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="row footer">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mainHead">~ THE CLASSIFIED NEWS ~</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row footerlink"><a href="../index.html">HOME</a></div>
+                <div class="row footerlink"><a href="politics.html">POLITICS</a></div>
+                <div class="row footerlink"><a href="business.html">BUSINESS</a></div>
+                <div class="row footerlink"><a href="entertainment.html">ENTERTAINMENT</a></div>
+                <div class="row footerlink"><a href="sport.html">SPORTS</a></div>
+                <div class="row footerlink"><a href="tech.html">TECHNOLOGY</a></div>
+            </div>
+        </div>
+        <div class="row copyright">&copy; Copyright 2019. All rights reserved. Design by Suranjan Poudel</div>
+    </div>
+    <!-- Footer End -->
+</div>
+</body>
+</html>

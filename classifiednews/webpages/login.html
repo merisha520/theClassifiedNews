@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>NewsApp</title>
+    <link rel="stylesheet" href="../css/script.css" type="text/css">
+    <script src="../js/login_signup.js" type="text/javascript"></script>
+</head>
+<body>
+<center><p id="errormsg"></p></center>
+<div class="login_signup_box">
+    <form name="LoginForm" method="post" onsubmit="return(login());">
+        <div class="row">
+            <div class="col-12 topRowLooginSignupBox">
+                LOGIN
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                E-Mail
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="email" class="inpuFields" name="Email">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Password
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="password" class="inpuFields" name="Password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 centerText">
+                <input type="submit" value="Login" class="submitBtn">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 centerText">
+                <p>Not a user? <a href="signup.html" style="color: red;">SignUp</a></p>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
