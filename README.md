@@ -1,7 +1,7 @@
 # theClassifiedNews
 
 ## Instruction
-Restore postgres_sql_backup on postgreSql
+Restore [Named Link]("postgres_sql_backup on postgreSql")
 Run ServerApi.java
 
 ## Project Specification
