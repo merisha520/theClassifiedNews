@@ -6,9 +6,9 @@ Run [ServerApi.java](https://github.com/Suranjan77/theClassifiedNews/blob/master
 Open [Index.html](https://github.com/Suranjan77/theClassifiedNews/blob/master/classifiednews/index.html"Frontend")
 
 ## Summary
-<p>Text classification is the task of classifying textual document into predefined categories.</p><br>
+<p>Text classification is the task of classifying textual document into predefined categories.</p>
 <p>Multinomial Naive Bayes algorithm is used to classify news articles into predefined
-categories. Textual news data is preprocessed and classified using the Naive Bayes algorithm </p><br>
+categories. Textual news data is preprocessed and classified using the Naive Bayes algorithm </p>
 <p>Multinomial Naive Bayes algorithm performed well in the five categories: politics,
 business, sports, technology and entertainment. The algorithm was able to perform with
 accuracy of 98 %, 98%, 99%, 97% and 95% on politics, business, sports, technology and
